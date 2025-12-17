@@ -22,7 +22,7 @@ model = None
 def load_model():
     global model
     if model is None:
-        model = tf.keras.models.load_model("./model2.keras", compile=False)
+        model = tf.keras.models.load_model("./model.keras", compile=False)
         print(f"✅ Model loaded: {model.name}")
     return model
 
