@@ -1,0 +1,6 @@
+gradio
+numpy
+tensorflow-cpu
+librosa
+pretty_midi
+synthviz
